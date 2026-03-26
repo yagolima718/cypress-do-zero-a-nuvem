@@ -21,4 +21,4 @@ ou rodar `npm run cy:open` para rodar em CypressApp em seu desktop
  ou `run cy:open:mobile` para rodar com visualização dos fluxos
 
  ## Suporte ao Projeto
-Projeto criado por [YagoLima] (https://github.com/yagolimas).
+Projeto criado por [YagoLima] (https://github.com/yagolima718).
