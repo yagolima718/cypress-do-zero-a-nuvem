@@ -1,28 +1,24 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# Cypress, do Zero a Nuvem
+Um projeto exemplo do projeto do zero a nuvem da escola The Talking About Testing
 
-👋 Seja bem-vindo(a)!
+## Pré Requisitos
+Necessario ter o git, Node.js e npm instalados para clonar e rodar o projeto.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+> Eu usei a versão `2.42.1 `, `v20.13.1 ` e `10.8.1`
 
-## O que você vai aprender?
+## Instalação
+Rode o comando no terminal `npm install` ou (`npm i` para uma versão curta) ele deverá ler as dependencias dev e instalar o cypress
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+## Testes
+Neste projeto você pode rodar  os testes em um Desktop OU Mobile
 
-## Vamos começar?
+### Desktop
+Run `npm teste` (ou `npm t` para versão simplificada) para rodar em headless mode
+ou rodar `npm run cy:open` para rodar em CypressApp em seu desktop
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+### Mobile
+ npm `run test:mobile`  para rodar o teste em headless atrásves de uma configuração viewport
+ ou `run cy:open:mobile` para rodar com visualização dos fluxos
 
-___
-
-Este é um curso da **Escola Talking About Testing**.
+ ## Suporte ao Projeto
+Projeto criado por [YagoLima] (https://github.com/yagolimas).
